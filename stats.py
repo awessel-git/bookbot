@@ -1,6 +1,7 @@
 def count_words(book_text):
     return len(book_text.split())
 
+
 def count_characters(book_text):
     characters = {}
     for letter in book_text:
@@ -11,7 +12,9 @@ def count_characters(book_text):
             characters[lowercase_letter] = 1
     return characters
 
+
 def sort_characters(characters):
+    # sorts the characters from highest to lowest count
     sorted_characters = []
     for k, v in characters.items():
         if k.isalpha():
@@ -21,6 +24,7 @@ def sort_characters(characters):
             sorted_characters.append(new_entry)
     sorted_characters.sort(reverse=True, key=sort_on)
     return sorted_characters
+
 
 def sort_on(items):
     return items["count"]
