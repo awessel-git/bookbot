@@ -11,7 +11,7 @@ BookBot is a small Python program that reads a `.txt` file (like a book) and sho
    git clone https://github.com/awessel-git/bookbot.git
    cd bookbot
 
-2. Create a `books` folder inside the project (next to `main.py`).  
+2. Create a `books` folder inside the project (next to `main.py`).
    Put any `.txt` file in there (for example: `frankenstein.txt`).
 
 3. Run the program and point it to your file:
