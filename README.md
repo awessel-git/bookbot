@@ -3,7 +3,6 @@
 BookBot is a small Python program that reads a `.txt` file (like a book) and shows simple stats:
 
 - Total word count
-- Most common words
 - Letter frequency (a–z)
 
 ## How to use
@@ -12,7 +11,7 @@ BookBot is a small Python program that reads a `.txt` file (like a book) and sho
    git clone https://github.com/awessel-git/bookbot.git
    cd bookbot
 
-2. Make a folder called `books` **inside the project folder** (next to `main.py`).  
+2. Create a `books` folder inside the project (next to `main.py`).  
    Put any `.txt` file in there (for example: `frankenstein.txt`).
 
 3. Run the program and point it to your file:
@@ -20,14 +19,13 @@ BookBot is a small Python program that reads a `.txt` file (like a book) and sho
 
 ## Example output
 
-Total words: 74,483
-
-Top 10 words:
-1. the - 4,831
-2. and - 3,902
+------ BOOKBOT ------
+Analyzing book found at books/frankenstein.txt...
+////// Word Count //////
+Found 74483 total words
+****** Character Count ******
+e: 5000
+t: 4000
+a: 3500
 ...
-
-Letter frequency:
-a: 8204
-b: 1603
-...
+^^^^^^ END ^^^^^^
