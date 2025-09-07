@@ -19,6 +19,7 @@ BookBot is a small Python program that reads a `.txt` file (like a book) and sho
 
 ## Example output
 
+```
 ------ BOOKBOT ------
 Analyzing book found at books/frankenstein.txt...
 ////// Word Count //////
@@ -29,3 +30,4 @@ t: 4000
 a: 3500
 ...
 ^^^^^^ END ^^^^^^
+```
